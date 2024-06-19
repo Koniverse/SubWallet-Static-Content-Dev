@@ -33,17 +33,36 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
       - name: Update data
-        if: ${{ github.event.inputs.folder != 'localization-contents'}}
+        #        if: ${{ github.event.inputs.folder != 'localization-contents'}}
         env:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
         run: |
           yarn install --immutable | grep -v 'YN0013'
           yarn update-data ${{ github.event.inputs.environment }} ${{ github.event.inputs.folder }}
+      - name: Install jq and texterify
+        if: ${{ !github.event.inputs.folder || github.event.inputs.folder == 'localization-contents'}}
+        run: |
+          sudo apt-get install -y jq
+          sudo yarn global add texterify
       - name: Update data texterify
         if: ${{ !github.event.inputs.folder || github.event.inputs.folder == 'localization-contents'}}
         run: |
-          yarn global add texterify
-          texterify download --auth-email=${{ secrets.TEXTERIFY_MAIL }} --auth-secret=${{ secrets.TEXTERIFY_TOKEN }}
+          if [ github.event.inputs.environment == "production" ]; then
+          JSON_FILE="data/localization-contents/list.json"
+          else
+          JSON_FILE="data/localization-contents/preview.json"
+          fi
+          # Read and loop through each item in the selected JSON file
+          jq -c '.[]' $JSON_FILE | while read -r item; do
+          # Save each JSON object to file.json
+          echo $item > texterify.json
+          
+          # Run the required commands
+          texterify download --auth-email="${{ secrets.TEXTERIFY_MAIL }}" --auth-secret="${{ secrets.TEXTERIFY_TOKEN }}"
+          
+          # Add any additional actions here
+          
+          done
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
