@@ -904,7 +904,7 @@
   "Send tokens": "Gửi token",
   "Send transaction failed": "",
   "Settings": "Cài đặt",
-  "settings.entry.Modal.aboutSubwallet.title": "Về SubWallet",
+  "settings.entry.Modal.aboutSubwallet.title": "Test_Về SubWallet",
   "settings.entry.Modal.aboutSubwallet.ToS": "",
   "settings.entry.Modal.aboutSubwallet.website": "Trang web",
   "settings.entry.Modal.aboutSubwallet.xTwitter": "",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-19T11:30:28Z"
+  "texterify_timestamp": "2024-06-19T11:51:20Z"
 }
