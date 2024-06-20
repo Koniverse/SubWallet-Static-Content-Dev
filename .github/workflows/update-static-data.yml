@@ -46,8 +46,8 @@ jobs:
       - name: Update data texterify
         if: ${{ !github.event.inputs.folder || github.event.inputs.folder == 'localization-contents'}}
         env:
-          TEXTERIFY_MAIL_TEST: ${{ secrets.TEXTERIFY_MAIL_AB }}
-          TEXTERIFY_TOKEN_TEST: ${{ secrets.TEXTERIFY_TOKEN_AB }}
+          TEXTERIFY_MAIL_TEST: ${{ secrets.TEXTERIFY_MAIL_TEST }}
+          TEXTERIFY_TOKEN_TEST: ${{ secrets.TEXTERIFY_TOKEN_TEST }}
           TEXTERIFY_MAIL_SW_EXTENSION: ${{ secrets.TEXTERIFY_MAIL_SW_EXTENSION }}
           TEXTERIFY_TOKEN_SW_EXTENSION: ${{ secrets.TEXTERIFY_TOKEN_SW_EXTENSION }}
         run: |
