@@ -62,7 +62,11 @@ jobs:
             echo $updated_item > texterify.json
             
             # Run the required commands
-            texterify download --auth-email="${{ secrets.TEXTERIFY_MAIL }}" --auth-secret="${{ secrets.TEXTERIFY_TOKEN }}"
+            email='TEXTERIFY_MAIL_'"$(echo $updated_item | jq -r '.texterify_key')"
+            token='TEXTERIFY_TOKEN_'"$(echo $updated_item | jq -r '.texterify_key')"
+            auth_email=$(echo "${{ secrets[$email] }}")
+            auth_secret=$(echo "${{ secrets[$token] }}")
+            texterify download --auth-email="$auth_email" --auth-secret="$auth_secret"
                  
           done
       - name: Commit changes
