@@ -56,8 +56,7 @@ jobs:
           # Read and loop through each item in the selected JSON file
           jq -c '.[]' $JSON_FILE | while read -r item; do
             # Update the export_directory field
-            export_directory=$(echo $item | jq -r '.export_directory')
-            updated_item=$(echo $item | jq --arg suffix "$SUFFIX" '.export_directory = ($.export_directory + $suffix)')
+            updated_item=$(echo $item | jq --arg suffix "$SUFFIX" '.export_directory = (.export_directory + $suffix)')
     
             # Save each JSON object to file.json
             echo $updated_item > texterify.json
