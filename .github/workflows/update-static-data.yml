@@ -87,7 +87,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ${{ steps.get_project_name.outputs.project_name }}
+          projectName: ${{ steps.get_project_name.outputs}}
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: ${{ github.event.inputs.branch }}
           directory: './data'
