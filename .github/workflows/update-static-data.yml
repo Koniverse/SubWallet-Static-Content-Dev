@@ -69,12 +69,11 @@ jobs:
             # Run the required commands
             email='TEXTERIFY_MAIL_'"$(echo $updated_item | jq -r '.texterify_key')"
             token='TEXTERIFY_TOKEN_'"$(echo $updated_item | jq -r '.texterify_key')"
-            echo email
-            echo token
+            echo $email
+            echo $token
             auth_email="${!email}"
             auth_secret="${!token}"
-            echo auth_email
-            echo auth_secret
+            echo $auth_email
             texterify download --auth-email="$auth_email" --auth-secret="$auth_secret"
                  
           done
