@@ -65,6 +65,16 @@ jobs:
             texterify download --auth-email="${{ secrets.TEXTERIFY_MAIL }}" --auth-secret="${{ secrets.TEXTERIFY_TOKEN }}"
                  
           done
+      - name: Get Project name cloudflare
+        id: get_project_name
+        run: |
+          echo ${{ github.event.repository.name }}
+          if [ ${{ github.event.repository.name }} == "SubWallet-Static-Content" ]; then
+            PROJECT_NAME="sw-static-data"
+          else
+            PROJECT_NAME="sw-static-data-dev"
+          fi
+          echo "::set-output name=project_name::${{ PROJECT_NAME }}"
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
