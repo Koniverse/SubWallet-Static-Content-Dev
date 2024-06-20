@@ -74,7 +74,8 @@ jobs:
           else
             PROJECT_NAME="sw-static-data-dev"
           fi
-          echo "{project_name}={$PROJECT_NAME}" >> $GITHUB_OUTPUT
+          echo $PROJECT_NAME
+          echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
@@ -87,7 +88,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ${{ steps.get_project_name.outputs}}
+          projectName: ${{ steps.get_project_name.outputs.project_name}}
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: ${{ github.event.inputs.branch }}
           directory: './data'
