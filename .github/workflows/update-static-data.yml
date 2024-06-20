@@ -74,7 +74,7 @@ jobs:
           else
             PROJECT_NAME="sw-static-data-dev"
           fi
-          echo "::set-output name=project_name::${{ PROJECT_NAME }}"
+          echo "::set-output name=project_name::$PROJECT_NAME"
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
