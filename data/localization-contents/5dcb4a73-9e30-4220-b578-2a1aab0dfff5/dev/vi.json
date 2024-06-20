@@ -938,7 +938,7 @@
   "settings.Screen.generalSetting.notification.selectPlatform.title": "Notifications",
   "settings.Screen.generalSetting.Selector.currency.searchPlaceHolder": "Search currency",
   "settings.Screen.generalSetting.Selector.currency.title": "Select a currency",
-  "settings.Screen.generalSetting.title": "Cài đặt chung",
+  "settings.Screen.generalSetting.title": "Cài đặt chung - TEST",
   "settings.Screen.generalSetting.walletTheme": "Wallet theme",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "Block explorer phải là một URL hợp lệ",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "URL Crowdloan phải là một URL hợp lệ",
@@ -985,7 +985,7 @@
   "settings.Screen.settingsEntry.Item.aboutSubwallet": "Về SubWallet",
   "settings.Screen.settingsEntry.Item.assetsAddresses": "Assets & addresses",
   "settings.Screen.settingsEntry.Item.contactSupport": "Contact support",
-  "settings.Screen.settingsEntry.Item.generalSettings": "Cài đặt chung",
+  "settings.Screen.settingsEntry.Item.generalSettings": "Cài đặt chung - TEST 1",
   "settings.Screen.settingsEntry.Item.manageAddressBook": "Quản lý sổ địa chỉ",
   "settings.Screen.settingsEntry.Item.manageNetworks": "Quản lý mạng",
   "settings.Screen.settingsEntry.Item.manageTokens": "Quản lý token",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-20T04:12:37Z"
+  "texterify_timestamp": "2024-06-20T10:35:41Z"
 }
