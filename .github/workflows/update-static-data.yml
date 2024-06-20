@@ -33,7 +33,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
       - name: Update data
-        #        if: ${{ github.event.inputs.folder != 'localization-contents'}}
         env:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
         run: |
@@ -48,20 +47,24 @@ jobs:
         if: ${{ !github.event.inputs.folder || github.event.inputs.folder == 'localization-contents'}}
         run: |
           if [ github.event.inputs.environment == "production" ]; then
-          JSON_FILE="data/localization-contents/list.json"
+            JSON_FILE="data/localization-contents/list.json"
+            SUFFIX="prod"
           else
-          JSON_FILE="data/localization-contents/preview.json"
+            JSON_FILE="data/localization-contents/preview.json"
+            SUFFIX="dev"
           fi
           # Read and loop through each item in the selected JSON file
           jq -c '.[]' $JSON_FILE | while read -r item; do
-          # Save each JSON object to file.json
-          echo $item > texterify.json
-          
-          # Run the required commands
-          texterify download --auth-email="${{ secrets.TEXTERIFY_MAIL }}" --auth-secret="${{ secrets.TEXTERIFY_TOKEN }}"
-          
-          # Add any additional actions here
-          
+            # Update the export_directory field
+            export_directory=$(echo $item | jq -r '.export_directory')
+            updated_item=$(echo $item | jq --arg suffix "$SUFFIX" '.export_directory = ($.export_directory + $suffix)')
+    
+            # Save each JSON object to file.json
+            echo $updated_item > texterify.json
+            
+            # Run the required commands
+            texterify download --auth-email="${{ secrets.TEXTERIFY_MAIL }}" --auth-secret="${{ secrets.TEXTERIFY_TOKEN }}"
+                 
           done
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
