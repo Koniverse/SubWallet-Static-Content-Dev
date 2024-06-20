@@ -46,7 +46,7 @@ jobs:
       - name: Update data texterify
         if: ${{ !github.event.inputs.folder || github.event.inputs.folder == 'localization-contents'}}
         run: |
-          if [ github.event.inputs.environment == "production" ]; then
+          if [ ${{ github.event.inputs.environment }} == "production" ]; then
             JSON_FILE="data/localization-contents/list.json"
             SUFFIX="/prod"
           else
