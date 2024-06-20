@@ -65,8 +65,14 @@ jobs:
             texterify download --auth-email="${{ secrets.TEXTERIFY_MAIL }}" --auth-secret="${{ secrets.TEXTERIFY_TOKEN }}"
                  
           done
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Scheduler
+          author_email: scheduler@github.io
+          message: 'Update Static Data'
       - name: Get Project name cloudflare
-        id: get_project_name
+        id: get_project_name_cf
         run: |
           echo ${{ github.event.repository.name }}
           if [ ${{ github.event.repository.name }} == "SubWallet-Static-Content" ]; then
@@ -76,19 +82,13 @@ jobs:
           fi
           echo $PROJECT_NAME
           echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: Scheduler
-          author_email: scheduler@github.io
-          message: 'Update Static Data'
       - name: Deploy to Cloudflare Pages
         id: cloudflare_deployment
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ${{ steps.get_project_name.outputs.project_name}}
+          projectName: ${{ steps.get_project_name_cf.outputs.project_name}}
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: ${{ github.event.inputs.branch }}
           directory: './data'
