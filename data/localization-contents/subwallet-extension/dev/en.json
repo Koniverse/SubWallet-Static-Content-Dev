@@ -101,7 +101,7 @@
   "Blocked dApp": "",
   "Block explorer": "",
   "Block explorer must be a valid URL": "",
-  "Block this site": "",
+  "Block this site": "Block this site10",
   "Buy now": "",
   "Buy token": "",
   "By clicking \"Connect\", you allow this dapp to view your public address": "",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-26T10:12:01Z"
+  "texterify_timestamp": "2024-06-26T10:33:37Z"
 }
