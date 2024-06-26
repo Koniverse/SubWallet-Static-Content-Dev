@@ -999,7 +999,7 @@
   "settings.Screen.settingsEntry.SectionTitle.websiteAccess": "Website access",
   "settings.Screen.settingsEntry.title": "Settings",
   "settings.Screen.websiteAccess.searchPlaceHolder": "Search or enter a website",
-  "settings.security.Screen.changePassword.bodyTitle": "Change your password",
+  "settings.security.Screen.changePassword.bodyTitle": "Change your password1",
   "settings.security.Screen.changePassword.confirmAgreement": "I understand that SubWallet can’t recover the password.",
   "settings.security.Screen.changePassword.FormRules.currentPassword": "Password is required",
   "settings.security.Screen.changePassword.Input.confirmPassword": "Confirm new password",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-26T08:18:25Z"
+  "texterify_timestamp": "2024-06-26T10:12:01Z"
 }
