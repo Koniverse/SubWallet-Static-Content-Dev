@@ -299,6 +299,15 @@ const cacheConfigs = [
         preview: 'preview.json',
         additionalProcess: []
     },
+    {
+        url: `${STRAPI_URL}/api/list/browser-config`,
+        folder: 'browser-configs',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: ['id'],
+        preview: 'preview.json',
+        additionalProcess: []
+    },
 ]
 
 const savePath = (folder, fileName) => `data/${folder}/${fileName || 'list.json'}`;
