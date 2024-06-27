@@ -23,37 +23,19 @@
     ],
     "categories": [
       {
-        "id": 17,
-        "slug": "gaming",
-        "name": "Gaming",
         "color": "magenta",
-        "description": null,
-        "createdAt": "2024-04-23T08:08:04.828Z",
-        "updatedAt": "2024-05-25T09:50:40.414Z",
-        "publishedAt": "2024-04-23T08:08:07.390Z",
-        "ordinal": 13
+        "name": "Gaming",
+        "slug": "gaming"
       },
       {
-        "id": 6,
-        "slug": "crowdloans",
-        "name": "Crowdloans",
         "color": "blue",
-        "description": null,
-        "createdAt": "2023-10-05T05:37:14.806Z",
-        "updatedAt": "2024-02-03T09:41:24.751Z",
-        "publishedAt": "2023-10-05T05:40:51.378Z",
-        "ordinal": 9
+        "name": "Crowdloans",
+        "slug": "crowdloans"
       },
       {
-        "id": 2,
-        "slug": "nft",
-        "name": "NFT",
         "color": "primary",
-        "description": null,
-        "createdAt": "2023-10-05T05:35:28.868Z",
-        "updatedAt": "2024-02-03T09:40:53.784Z",
-        "publishedAt": "2023-11-12T05:41:58.721Z",
-        "ordinal": 5
+        "name": "NFT",
+        "slug": "nft"
       }
     ]
   },
