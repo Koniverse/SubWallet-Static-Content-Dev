@@ -33,9 +33,7 @@
       "id": 20,
       "confirm_label": "Stake AZERO",
       "cancel_label": "Dismiss",
-      "instruction_id": 36,
-      "group": "earning",
-      "slug": "AZERO_Alephzero"
+      "instruction": null
     }
   }
 ]
