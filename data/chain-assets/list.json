@@ -12641,25 +12641,5 @@
     "originChain": "bifrost_dot",
     "multiChainAsset": null,
     "assetRefs": []
-  },
-  {
-    "slug": "bifrost_dot-LOCAL-vASTR",
-    "name": "Bifrost Voucher ASTR test",
-    "symbol": "vASTR",
-    "decimals": 18,
-    "priceId": "bifrost-voucher-astr",
-    "minAmount": "10000000000000000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "onChainInfo": {
-        "VToken2": "3"
-      }
-    },
-    "hasValue": true,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/chain-assets/images/icon/vastr_b149fc6113.png",
-    "originChain": "bifrost_dot",
-    "multiChainAsset": null,
-    "assetRefs": []
   }
 ]
