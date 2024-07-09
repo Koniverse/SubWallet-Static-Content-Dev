@@ -947,7 +947,7 @@
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.invalid": "提供商URL无效",
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.providerAdded": "已添加此提供商",
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.validating": "验证该提供商时出错",
-  "settings.Screen.importNetwork.Input.providerUrl.placeHolder": "已添加此链",
+  "settings.Screen.importNetwork.Input.providerUrl.placeHolder": "提供商URL",
   "settings.Screen.importNetwork.Input.providerUrl.tooltip": "已添加此链",
   "settings.Screen.importNetwork.Warning.networkExist": "此网络已存在",
   "settings.Screen.manageAddressBook.searchPlaceHolder": "账户名字",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-26T10:44:10Z"
+  "texterify_timestamp": "2024-07-09T02:05:40Z"
 }

@@ -947,7 +947,7 @@
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.invalid": "URL провайдер недействителен",
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.providerAdded": "Этот провайдер уже добавлен",
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.validating": "Ошибка проверки этого провайдера",
-  "settings.Screen.importNetwork.Input.providerUrl.placeHolder": "Эта цепочка уже добавлена",
+  "settings.Screen.importNetwork.Input.providerUrl.placeHolder": "Провайдер URL",
   "settings.Screen.importNetwork.Input.providerUrl.tooltip": "Эта цепочка уже добавлена",
   "settings.Screen.importNetwork.Warning.networkExist": "Сеть уже существует",
   "settings.Screen.manageAddressBook.searchPlaceHolder": "Имя аккаунта",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-26T10:44:10Z"
+  "texterify_timestamp": "2024-07-09T02:05:40Z"
 }

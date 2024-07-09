@@ -947,7 +947,7 @@
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.invalid": "Provider URL  không hợp lệ",
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.providerAdded": "Provider này đã được thêm",
   "settings.Screen.importNetwork.Input.providerUrl.ErrorTooltip.validating": "Có lỗi xảy ra khi xác nhận nhà cung cấp",
-  "settings.Screen.importNetwork.Input.providerUrl.placeHolder": "Mạng này đã được thêm",
+  "settings.Screen.importNetwork.Input.providerUrl.placeHolder": "Provider URL",
   "settings.Screen.importNetwork.Input.providerUrl.tooltip": "Mạng này đã được thêm",
   "settings.Screen.importNetwork.Warning.networkExist": "Mạng đã tồn tại",
   "settings.Screen.manageAddressBook.searchPlaceHolder": "Tên tài khoản",
@@ -1412,5 +1412,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-06-26T10:44:11Z"
+  "texterify_timestamp": "2024-07-09T02:05:41Z"
 }
