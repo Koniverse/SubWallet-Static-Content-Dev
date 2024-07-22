@@ -957,7 +957,7 @@
   "settings.Screen.generalSetting.notification.selectPlatform.title": "Notifications",
   "settings.Screen.generalSetting.Selector.currency.searchPlaceHolder": "Search currency",
   "settings.Screen.generalSetting.Selector.currency.title": "Select a currency",
-  "settings.Screen.generalSetting.title": "General settings 1",
+  "settings.Screen.generalSetting.title": "General settings",
   "settings.Screen.generalSetting.walletTheme": "Wallet theme",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "Block explorer must be a valid URL",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "Crowdloan URL must be a valid URL",
@@ -1004,7 +1004,7 @@
   "settings.Screen.settingsEntry.Item.aboutSubwallet": "About SubWallet",
   "settings.Screen.settingsEntry.Item.assetsAddresses": "Assets & addresses",
   "settings.Screen.settingsEntry.Item.contactSupport": "Contact support",
-  "settings.Screen.settingsEntry.Item.generalSettings": "General settings 2",
+  "settings.Screen.settingsEntry.Item.generalSettings": "General settings",
   "settings.Screen.settingsEntry.Item.manageAddressBook": "Manage address book",
   "settings.Screen.settingsEntry.Item.manageNetworks": "Manage networks",
   "settings.Screen.settingsEntry.Item.manageTokens": "Manage tokens",
@@ -1451,5 +1451,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-07-22T07:30:11Z"
+  "texterify_timestamp": "2024-07-22T07:34:44Z"
 }
