@@ -957,7 +957,7 @@
   "settings.Screen.generalSetting.notification.selectPlatform.title": "Notifications",
   "settings.Screen.generalSetting.Selector.currency.searchPlaceHolder": "Search currency",
   "settings.Screen.generalSetting.Selector.currency.title": "Select a currency",
-  "settings.Screen.generalSetting.title": "一般設定",
+  "settings.Screen.generalSetting.title": "一般設定 1",
   "settings.Screen.generalSetting.walletTheme": "ウォレットのテーマ",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "ブロックエクスプローラーは有効なURLである必要があります",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "クラウドローンURLは有効なURLでなければなりません",
@@ -1004,7 +1004,7 @@
   "settings.Screen.settingsEntry.Item.aboutSubwallet": "SubWallet について",
   "settings.Screen.settingsEntry.Item.assetsAddresses": "Assets & addresses",
   "settings.Screen.settingsEntry.Item.contactSupport": "Contact support",
-  "settings.Screen.settingsEntry.Item.generalSettings": "一般設定",
+  "settings.Screen.settingsEntry.Item.generalSettings": "一般設定 2",
   "settings.Screen.settingsEntry.Item.manageAddressBook": "アドレス帳を管理",
   "settings.Screen.settingsEntry.Item.manageNetworks": "ネットワークを管理",
   "settings.Screen.settingsEntry.Item.manageTokens": "トークンを管理",
@@ -1451,5 +1451,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-07-22T07:34:45Z"
+  "texterify_timestamp": "2024-07-22T07:36:42Z"
 }
