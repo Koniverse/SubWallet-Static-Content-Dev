@@ -957,7 +957,7 @@
   "settings.Screen.generalSetting.notification.selectPlatform.title": "Notifications",
   "settings.Screen.generalSetting.Selector.currency.searchPlaceHolder": "Search currency",
   "settings.Screen.generalSetting.Selector.currency.title": "Select a currency",
-  "settings.Screen.generalSetting.title": "通用设置 1",
+  "settings.Screen.generalSetting.title": "通用设置",
   "settings.Screen.generalSetting.walletTheme": "钱包主题",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "区块浏览器必须是有效的URL",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "众贷URL必须有效",
@@ -1004,7 +1004,7 @@
   "settings.Screen.settingsEntry.Item.aboutSubwallet": "关于SubWallet",
   "settings.Screen.settingsEntry.Item.assetsAddresses": "Assets & addresses",
   "settings.Screen.settingsEntry.Item.contactSupport": "Contact support",
-  "settings.Screen.settingsEntry.Item.generalSettings": "通用设置 2",
+  "settings.Screen.settingsEntry.Item.generalSettings": "通用设置",
   "settings.Screen.settingsEntry.Item.manageAddressBook": "管理通讯录",
   "settings.Screen.settingsEntry.Item.manageNetworks": "网络管理",
   "settings.Screen.settingsEntry.Item.manageTokens": "管理通证",
@@ -1451,5 +1451,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-07-22T07:36:42Z"
+  "texterify_timestamp": "2024-07-22T08:11:37Z"
 }

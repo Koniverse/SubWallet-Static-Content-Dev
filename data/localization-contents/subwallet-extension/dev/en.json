@@ -949,7 +949,7 @@
   "settings.Screen.crowdloans.Filter.kusama": "Kusama parachain",
   "settings.Screen.crowdloans.Filter.polkadot": "Polkadot parachain",
   "settings.Screen.crowdloans.Filter.won": "Won",
-  "settings.Screen.crowdloans.title": "Crowdloans",
+  "settings.Screen.crowdloans.title": "Crowdloans 1",
   "settings.Screen.generalSetting.Item.currency": "Currency",
   "settings.Screen.generalSetting.Item.language": "Language",
   "settings.Screen.generalSetting.Item.notifications": "Notifications",
@@ -1451,5 +1451,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-07-22T07:36:42Z"
+  "texterify_timestamp": "2024-07-22T08:11:37Z"
 }

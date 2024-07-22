@@ -957,7 +957,7 @@
   "settings.Screen.generalSetting.notification.selectPlatform.title": "Notifications",
   "settings.Screen.generalSetting.Selector.currency.searchPlaceHolder": "Search currency",
   "settings.Screen.generalSetting.Selector.currency.title": "Select a currency",
-  "settings.Screen.generalSetting.title": "Общие настройки 1",
+  "settings.Screen.generalSetting.title": "Общие настройки",
   "settings.Screen.generalSetting.walletTheme": "Тема кошелька",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "Проводник блоков должен быть действительным URL",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "Краудлоун URL должен быть действительный URL",
@@ -1004,7 +1004,7 @@
   "settings.Screen.settingsEntry.Item.aboutSubwallet": "О Subwallet",
   "settings.Screen.settingsEntry.Item.assetsAddresses": "Assets & addresses",
   "settings.Screen.settingsEntry.Item.contactSupport": "Contact support",
-  "settings.Screen.settingsEntry.Item.generalSettings": "Общие настройки 2",
+  "settings.Screen.settingsEntry.Item.generalSettings": "Общие настройки",
   "settings.Screen.settingsEntry.Item.manageAddressBook": "Управление адресной книгой",
   "settings.Screen.settingsEntry.Item.manageNetworks": "Управление сетями",
   "settings.Screen.settingsEntry.Item.manageTokens": "Управление токенами",
@@ -1451,5 +1451,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-07-22T07:36:43Z"
+  "texterify_timestamp": "2024-07-22T08:11:38Z"
 }
