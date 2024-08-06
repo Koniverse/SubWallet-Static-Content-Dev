@@ -370,7 +370,7 @@
   "Earn with SubWallet Dashboard": "",
   "Earn yield on your {{symbol}}": "",
   "Edit contact": "Chỉnh sửa liên hệ",
-  "emptyContent.common.description": "Vui lòng thay đổi tiêu chí tìm kiếm và thử lại",
+  "emptyContent.common.description": "Vui lòng thay đổi tiêu chí tìm kiếm và thử lại1",
   "emptyContent.common.title": "Không có kết quả",
   "emptyContent.crowdloan.description": "Your crowdloans will show up here",
   "emptyContent.crowdloan.title": "No crowdloans found",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-07-31T05:09:50Z"
+  "texterify_timestamp": "2024-08-06T10:30:36Z"
 }
