@@ -192,7 +192,7 @@
   "common.Text.blockExplorer": "Block explorer",
   "common.Text.chainId": "Chain ID",
   "common.Text.contractAddress": "Contract address",
-  "common.Text.crowdloanUrl": "Crowdloan URL",
+  "common.Text.crowdloanUrl": "Crowdloan URL1",
   "common.Text.decimals": "Decimals",
   "common.Text.description": "Description",
   "common.Text.error": "Error",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-12T07:47:33Z"
+  "texterify_timestamp": "2024-08-12T07:54:11Z"
 }
