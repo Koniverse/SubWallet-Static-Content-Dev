@@ -176,7 +176,7 @@
   "common.Button.importToken": "Import token",
   "common.Button.joinNow": "Join now",
   "common.Button.manageToken": "Manage tokens",
-  "common.Button.save": "Save 0",
+  "common.Button.save": "Save",
   "common.Button.walletConnect": "New connection",
   "common.Search.Account.placeHolder": "Account name",
   "common.Tag.archived": "Archived",
@@ -1111,7 +1111,7 @@
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.Item.forget": "Forget this site",
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.Item.unblock": "Unblock this site",
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.title": "dApp configuration",
-  "settings.websiteAccess.Screen.detail.searchPlaceHolder": "Search account",
+  "settings.websiteAccess.Screen.detail.searchPlaceHolder": "Search account1",
   "Show balance": "",
   "Show private key": "",
   "Show QR code": "",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-12T04:26:21Z"
+  "texterify_timestamp": "2024-08-12T05:36:55Z"
 }
