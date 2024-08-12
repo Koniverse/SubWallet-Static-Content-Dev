@@ -188,7 +188,7 @@
   "common.Tag.upcoming": "Upcoming",
   "common.Text.accountAddress": "Account address",
   "common.Text.addressInput.placeHolder": "Please type or paste an address",
-  "common.Text.addressPrefix": "Address prefix 1",
+  "common.Text.addressPrefix": "Address prefix",
   "common.Text.blockExplorer": "Block explorer",
   "common.Text.chainId": "Chain ID",
   "common.Text.contractAddress": "Contract address",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-12T07:43:17Z"
+  "texterify_timestamp": "2024-08-12T07:47:33Z"
 }
