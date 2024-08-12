@@ -188,7 +188,7 @@
   "common.Tag.upcoming": "Upcoming",
   "common.Text.accountAddress": "Account address",
   "common.Text.addressInput.placeHolder": "Please type or paste an address",
-  "common.Text.addressPrefix": "Address prefix 1",
+  "common.Text.addressPrefix": "Address prefix",
   "common.Text.blockExplorer": "Block explorer",
   "common.Text.chainId": "Chain ID",
   "common.Text.contractAddress": "Contract address",
@@ -197,7 +197,7 @@
   "common.Text.description": "Description",
   "common.Text.error": "Error",
   "common.Text.filter": "Filter",
-  "common.Text.network": "Network1",
+  "common.Text.network": "Network",
   "common.Text.networkDetail": "Network detail",
   "common.Text.networkName": "Network name",
   "common.Text.networkType": "Network type",
@@ -206,7 +206,7 @@
   "common.Text.providerUrl": "Provider URL",
   "common.Text.rewards": "Rewards",
   "common.Text.selectNetwork": "Select network",
-  "common.Text.selectTokenType": "Select token type",
+  "common.Text.selectTokenType": "Select token type 1",
   "common.Text.status": "Status",
   "common.Text.symbol": "Symbol",
   "common.Text.timeline": "Timeline",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-12T07:57:01Z"
+  "texterify_timestamp": "2024-08-12T08:49:02Z"
 }
