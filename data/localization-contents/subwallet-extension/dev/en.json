@@ -199,7 +199,7 @@
   "common.Text.filter": "Filter",
   "common.Text.network": "Network",
   "common.Text.networkDetail": "Network detail",
-  "common.Text.networkName": "Network name",
+  "common.Text.networkName": "Network name1",
   "common.Text.networkType": "Network type",
   "common.Text.priceId": "Price ID",
   "common.Text.programID": "Program ID",
@@ -1111,7 +1111,7 @@
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.Item.forget": "Forget this site",
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.Item.unblock": "Unblock this site",
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.title": "dApp configuration",
-  "settings.websiteAccess.Screen.detail.searchPlaceHolder": "Search account1",
+  "settings.websiteAccess.Screen.detail.searchPlaceHolder": "Search account",
   "Show balance": "",
   "Show private key": "",
   "Show QR code": "",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-12T05:36:55Z"
+  "texterify_timestamp": "2024-08-12T06:07:45Z"
 }
