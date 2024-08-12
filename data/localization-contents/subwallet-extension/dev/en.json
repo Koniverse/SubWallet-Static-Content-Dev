@@ -1096,7 +1096,7 @@
   "settings.security.Modal.authPassword.title": "Authenticate with password",
   "settings.security.Screen.changePassword.bodyTitle": "Change your password",
   "settings.security.Screen.changePassword.confirmAgreement": "I understand that SubWallet can’t recover the password.",
-  "settings.security.Screen.changePassword.FormRules.currentPassword": "Password is required",
+  "settings.security.Screen.changePassword.FormRules.currentPassword": "Password is required1",
   "settings.security.Screen.changePassword.FormRules.lengthPassword": "{{fieldName}} must be at least {{minLen}} characters in length",
   "settings.security.Screen.changePassword.FormRules.letterPassword": "{{fieldName}} should be at least 1 uppercase letter, 1 number, and 1 special character",
   "settings.security.Screen.changePassword.FormRules.requiredPassword": "{{fieldName}} is required",
@@ -1527,5 +1527,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-08T09:20:15Z"
+  "texterify_timestamp": "2024-08-12T04:00:09Z"
 }
