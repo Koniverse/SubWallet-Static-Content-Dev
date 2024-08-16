@@ -1148,7 +1148,7 @@
   "settings.security.Screen.changePassword.Input.newPassword.placeHolder": "新密码",
   "settings.security.Screen.changePassword.Link.learnMore": "Learn more",
   "settings.security.Screen.changePassword.title": "更改密码",
-  "settings.security.Screen.confirmPassword.FormRules.notMatch": "确认密码不相符！1",
+  "settings.security.Screen.confirmPassword.FormRules.notMatch": "确认密码不相符！",
   "settings.websiteAccess.Screen.detail.empty.message": "你的账户将在此处出现",
   "settings.websiteAccess.Screen.detail.empty.title": "未找到账户",
   "settings.websiteAccess.Screen.detail.Modal.dappConfig.Item.block": "封锁此网站",
@@ -1573,5 +1573,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-16T04:21:27Z"
+  "texterify_timestamp": "2024-08-16T04:23:14Z"
 }
