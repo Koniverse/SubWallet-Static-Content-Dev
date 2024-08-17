@@ -174,7 +174,7 @@
   "common.Button.Approve": "Approve",
   "common.Button.assetChecker": "Turn it on",
   "common.Button.cancel": "Cancel",
-  "common.Button.chainChecker": "Turn it on",
+  "common.Button.chainChecker": "Turn it on 1",
   "common.Button.createOne": "Create one",
   "common.Button.importToken": "Import token",
   "common.Button.joinNow": "Join now",
@@ -1576,5 +1576,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2024-08-17T03:09:22Z"
+  "texterify_timestamp": "2024-08-17T09:49:31Z"
 }
