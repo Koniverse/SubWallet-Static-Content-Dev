@@ -1039,7 +1039,7 @@
   "settings.Screen.generalSetting.Selector.notification.Item.popup": "Всплывающее окно",
   "settings.Screen.generalSetting.Selector.notification.Item.window": "Окно",
   "settings.Screen.generalSetting.Selector.notification.title": "Notifications",
-  "settings.Screen.generalSetting.title": "Общие настройки1",
+  "settings.Screen.generalSetting.title": "Общие настройки",
   "settings.Screen.generalSetting.walletTheme": "Тема кошелька",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "Проводник блоков должен быть действительным URL",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "Краудлоун URL должен быть действительный URL",
@@ -1585,5 +1585,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2025-05-13T11:31:22Z"
+  "texterify_timestamp": "2025-05-13T11:35:08Z"
 }

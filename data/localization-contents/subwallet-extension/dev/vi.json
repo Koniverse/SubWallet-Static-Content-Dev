@@ -1039,7 +1039,7 @@
   "settings.Screen.generalSetting.Selector.notification.Item.popup": "Pop-up",
   "settings.Screen.generalSetting.Selector.notification.Item.window": "Cửa sổ",
   "settings.Screen.generalSetting.Selector.notification.title": "Notifications",
-  "settings.Screen.generalSetting.title": "Cài đặt chung1",
+  "settings.Screen.generalSetting.title": "Cài đặt chung",
   "settings.Screen.generalSetting.walletTheme": "Wallet theme",
   "settings.Screen.importNetwork.Input.blockExplorer.Error.invalidURL": "Block explorer phải là một URL hợp lệ",
   "settings.Screen.importNetwork.Input.crowdloan.Error.invalidURL": "URL Crowdloan phải là một URL hợp lệ",
@@ -1585,5 +1585,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2025-05-13T11:31:22Z"
+  "texterify_timestamp": "2025-05-13T11:35:09Z"
 }
