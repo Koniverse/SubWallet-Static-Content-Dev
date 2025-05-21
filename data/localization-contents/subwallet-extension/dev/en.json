@@ -1009,7 +1009,7 @@
   "settings.networkDetail.Modal.SelectProvider.placeHolder": "Select provider",
   "settings.networkDetail.Modal.SelectProvider.title": "Select provider",
   "settings.Popup.authorizeRequest.title": "Connect with SubWallet",
-  "settings.Screen.accountSetting.Item.migrate": "Migrate to unified account",
+  "settings.Screen.accountSetting.Item.migrate": "Migrate to unified account1",
   "settings.Screen.accountSetting.Item.split": "Split unified account",
   "settings.Screen.accountSetting.title": "Account settings",
   "settings.Screen.addProvider.bodyTitle": "Currently support WSS provider for Substrate networks and HTTP provider for EVM networks",
@@ -1657,5 +1657,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2025-05-21T08:45:58Z"
+  "texterify_timestamp": "2025-05-21T09:15:40Z"
 }
