@@ -1122,7 +1122,7 @@
   "settings.Screen.migrateAccount.summaryView.migrateToMultiAccounts": "You have successfully migrated to <br/> <highlight>{{number}} unified accounts</highlight>",
   "settings.Screen.migrateAccount.summaryView.migrateToOneAccount": "You have successfully migrated to <br/> <highlight>{{number}} unified account</highlight>",
   "settings.Screen.migrateAccount.summaryView.noAccountToMigrate": "All eligible accounts have been migrated. Review <guide>our guide</guide> to learn more about migration eligibility & process",
-  "settings.Screen.migrateAccount.summaryView.title": "All done!",
+  "settings.Screen.migrateAccount.summaryView.title": "All done!1",
   "settings.Screen.missionPools.title": "Missions",
   "settings.Screen.networkDetail.title": "Network detail",
   "settings.Screen.notification.emptyList.message": "Your notifications will appear here",
@@ -1657,5 +1657,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2025-05-21T08:23:27Z"
+  "texterify_timestamp": "2025-05-21T08:33:18Z"
 }
