@@ -195,7 +195,7 @@
   "common.Message.comingSoon": "Coming soon!",
   "common.Modal.accountMigrationInProgressWarning.Button.reloadView": "Reload view",
   "common.Modal.accountMigrationInProgressWarning.content": "You can't perform any action in Expand view while account migration is in progress. Reopen SubWallet extension to complete migration, then reload to continue using Expand view",
-  "common.Modal.accountMigrationInProgressWarning.title": "Migration in progress",
+  "common.Modal.accountMigrationInProgressWarning.title": "Migration in progress1",
   "common.Search.Account.placeHolder": "Account name",
   "common.Tag.archived": "Archived",
   "common.Tag.FCFS": "FCFS",
@@ -1657,5 +1657,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2025-05-21T08:35:16Z"
+  "texterify_timestamp": "2025-05-21T08:38:16Z"
 }
