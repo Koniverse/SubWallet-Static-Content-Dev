@@ -1119,8 +1119,8 @@
   "settings.Screen.migrateAccount.soloAccountMigrationView.title": "Accounts migrated",
   "settings.Screen.migrateAccount.summaryView.accountListModalTriggerLabel.forMultiItems": "And {{number}} others",
   "settings.Screen.migrateAccount.summaryView.accountListModalTriggerLabel.forOneItem": "And 1 other",
-  "settings.Screen.migrateAccount.summaryView.migrateToMultiAccounts": "You have successfully migrated to <br/> <highlight>{{number}} unified accounts</highlight>",
-  "settings.Screen.migrateAccount.summaryView.migrateToOneAccount": "You have successfully migrated to <br/> <highlight>{{number}} unified account</highlight>",
+  "settings.Screen.migrateAccount.summaryView.migrateToMultiAccounts": "You have successfully migrated to <br/> <highlight>{{number}} unified accounts</highlight>1",
+  "settings.Screen.migrateAccount.summaryView.migrateToOneAccount": "You have successfully migrated to <br/> <highlight>{{number}} unified account</highlight>1",
   "settings.Screen.migrateAccount.summaryView.noAccountToMigrate": "All eligible accounts have been migrated. Review <guide>our guide</guide> to learn more about migration eligibility & process",
   "settings.Screen.migrateAccount.summaryView.title": "All done!1",
   "settings.Screen.missionPools.title": "Missions",
@@ -1657,5 +1657,5 @@
   "ZK mode is syncing": "",
   "Zk mode is syncing: {{percent}}%": "",
   "ZK mode requires data synchronization": "",
-  "texterify_timestamp": "2025-05-21T08:33:18Z"
+  "texterify_timestamp": "2025-05-21T08:35:16Z"
 }
